@@ -9,6 +9,8 @@ gem 'sqlite3'
 
 gem 'ri_cal'
 
+gem 'trinidad'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
