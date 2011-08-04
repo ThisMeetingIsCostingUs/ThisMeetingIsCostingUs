@@ -19,3 +19,4 @@ production:
   adapter: mysql
   database: thismeetingiscostingus
   username: deploy
+  password: PJ0FjjyF3K
