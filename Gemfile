@@ -11,6 +11,8 @@ gem 'ri_cal'
 
 gem 'trinidad'
 
+gem 'mysql2'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
