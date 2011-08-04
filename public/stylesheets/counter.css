@@ -1,0 +1,30 @@
+span {
+	font-size: 100px;
+}
+input {
+	width: 286px;
+	border-color: #AAAAAA #CCCCCC #CCCCCC #AAAAAA;
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.25;
+	outline: 0 none;
+	padding: 5px 10px 6px;
+}
+body {
+	text-align: center;
+	font-family: georgia;
+}
+#wrapper {
+	width: 500px;
+	margin: 0px auto;
+}
+#yourcost {
+	width: 300px;
+	background-color: #333;
+}
+.counters {
+	display: none;
+}
