@@ -11,6 +11,12 @@ gem 'jdbc-mysql'
 
 gem 'ri_cal'
 
+gem 'trinidad'
+
+gem 'mysql2'
+
+gem 'redis'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

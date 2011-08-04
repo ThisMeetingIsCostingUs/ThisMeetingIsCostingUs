@@ -1,0 +1,22 @@
+<% content_for :head_js do %>
+<%= javascript_include_tag "counter"%>
+<% end %>
+<% content_for :head_css do %>
+<%= stylesheet_link_tag "counter"%>
+<% end %>
+<div id="wrapper">
+<p class="inputs">
+	<label>Total People</label>
+	<input id="people" type="text" value="0"/>
+</p>
+<p class="inputs">
+	<label>Per person cost</label>
+	<input id="cost" type="text" value="0"/>
+</p>
+<p class="counters">
+	<span>$</span><span id="counter">0.0000</span>
+</p>
+<p>
+	<button class="inputs" id="start">Start</button>
+	<button class="counters" id="reset">Reset</button>
+</p>

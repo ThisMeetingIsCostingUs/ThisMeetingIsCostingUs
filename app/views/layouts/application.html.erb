@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>ThisMeetingIsCostingUs</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
+	<%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"%>
+	<%= yield :head_js %>
+	<%= yield :head_css %>
+ 	<%= csrf_meta_tag %>
 </head>
 <body>
 
