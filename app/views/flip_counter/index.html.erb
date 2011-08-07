@@ -1,0 +1,22 @@
+<% content_for :head_js do %>
+<%= javascript_include_tag "flip_counter"%>
+<% end %>
+<% content_for :head_css do %>
+<%= stylesheet_link_tag "flip_counter"%>
+<% end %>
+
+  <div id="wrapper"><div id="flip-counter" class="flip-counter"></div></div>
+
+  
+  <script type="text/javascript">
+        //<![CDATA[
+
+        $(function(){
+                
+                // Initialize a new counter
+                var myCounter = new flipCounter('flip-counter', {value:10000, inc:123, pace:600, auto:true});
+
+        });
+
+        //]]>
+  </script>

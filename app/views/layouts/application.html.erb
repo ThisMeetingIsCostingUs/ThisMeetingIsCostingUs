@@ -8,8 +8,14 @@
  	<%= csrf_meta_tag %>
 </head>
 <body>
+  <div id="container">
+    <%= render :partial => "includes/main_nav" %>
+  </div>
 
 <%= yield %>
 
+  <div id="footer">
+    <%= render :partial => "includes/footer" %>
+  </div>
 </body>
 </html>
